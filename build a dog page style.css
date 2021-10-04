@@ -1,0 +1,117 @@
+
+.body {
+    padding: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 30px;
+    }
+
+
+.container {
+    display: flex; 
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+    }
+
+
+.items {
+    display: flex; 
+    flex-direction:row;
+    flex-wrap: wrap; 
+    flex-shrink: 3;
+    align-items:flex-start;
+    
+}
+
+
+
+.header {
+    background: #004175; 
+    border-color: #89DEEF; 
+    color: white;
+    text-align: left;
+    padding: 16px;
+    inline-size: 500%;
+    block-size: 45px;
+    line-height: 3px;
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    
+    }
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding: 10px;
+    font-weight: 200;
+    }
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    }
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    }
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    }
+
+.images {
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height: 50px;
+    background-size: cover; 
+    max-width: 100%;
+}
+    
+
+.tinted-image {
+    background:
+    linear-gradient(
+        rgba(190, 127, 245, 0.5),
+        rgba(190, 127, 245, 0.5) 
+    ),
+
+    url("starter_files/images/donate.jpg");
+}
+
+
+
+.images {
+    width: auto;
+    height: 200px;
+    text-align: center;
+    line-height: 50px;
+    background: linear-gradient(
+    rgba(190, 127, 245, 0.5), 
+    rgba(190, 127, 245, 0.5), 
+    url("starter_files/images/volunteer.jpg")
+    );
+    background-size: cover;
+    max-width: 100%;
+}   
+
+.images {
+    width: auto;
+    height: 200px;
+    text-align: center;
+    line-height: 50px;
+    background: linear-gradient(
+    rgba(190, 127, 245, 0.5), 
+    rgba(190, 127, 245, 0.5), 
+    url("starter_files/images/volunteer.jpg")
+    );
+    background-size: cover;
+    max-width: 100%;
+}
+
